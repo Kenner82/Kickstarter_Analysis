@@ -10,7 +10,7 @@ Using information provided on the details of 4,114 Kickstarter compaigns launche
 
 This data was visualized with a line graph. 
 
-![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/111674383/190319037-b425868d-ee38-4b52-85b5-e76dd750b45f.png)
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/111674383/213107268-1eef8cfa-8f4d-4b4f-8424-7d488db385a9.png)
 
 ### Outcomes For Plays Based On Financing Goals
 The next analysis used the same Kickstarter campaign data to compare the outcomes (successful, failed, or canceled) of campaigns in the "plays" subcategory to their financing goals. 
@@ -19,7 +19,7 @@ Campaign goals were broken into 12 data ranges starting with "less than 1,000", 
 
 This data was also visualized with a line graph.
 
-![Outcomes_vs_Goals](https://user-images.githubusercontent.com/111674383/190318009-dc77cd18-885c-4f18-ae5c-7cee27570d17.png)
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/111674383/213107289-8df6b8c4-3ae2-401e-a636-27dc6fd04980.png)
 
 ## Challenges And Difficulties
 In order to analyze the original dataset, additional columns had to be made to convert column data into usable category and date formats. 
