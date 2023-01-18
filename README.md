@@ -5,14 +5,14 @@ Evaluate the outcomes of Kickstarter campaigns based on launch date and financin
 
 ## Analysis
 
-### Analysis of Outcomes Based on Launch Date
+### Theater Outcomes Based On Launch Date
 Using information provided on the details of 4,114 Kickstarter compaigns launched between 2009-2017, data was first analyzed using a pivot table to determine the number of successful, failed, and canceled campaigns based on the months in which they were launched. It was further filtered by Parent Category to view only results labeled "theater". The option to filter by Year was also included, though not used in this analysis. 
 
 This data was visualized with a line graph. 
 
 ![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/111674383/190319037-b425868d-ee38-4b52-85b5-e76dd750b45f.png)
 
-### Analysis of Outcomes Based on Goals
+### Outcomes For Plays Based On Financing Goals
 The next analysis used the same Kickstarter campaign data to compare the outcomes (successful, failed, or canceled) of campaigns in the "plays" subcategory to their financing goals. 
 
 Campaign goals were broken into 12 data ranges starting with "less than 1,000", ending with "50,000 or more", and then divided equally into 10 ranges between those amounts. The CountIfs() function was used to calculate how many of each outcome occurred in each financing goal range. After calculating the total projects within each range, the percentage of succesful, failed, and canceled campgaigns for each goal range was calculated. 
