@@ -1,7 +1,7 @@
 # Analyzing Kickstarter Data With Excel
 
 ## Purpose
-Evaluate the outcomes of Kickstarter campaigns based on launch date and financing goals to determine ideal conditions for launching a successful compaign.
+Evaluate the outcomes of Kickstarter campaigns based on launch date and financing goals to determine ideal conditions for launching a successful campaign.
 
 ## Analysis
 
@@ -15,7 +15,7 @@ This data was visualized with a line graph.
 ### Outcomes For Plays Based On Financing Goals
 The next analysis used the same Kickstarter campaign data to compare the outcomes (successful, failed, or canceled) of campaigns in the "plays" subcategory to their financing goals. 
 
-Campaign goals were broken into 12 data ranges starting with "less than 1,000", ending with "50,000 or more", and then divided equally into 10 ranges between those amounts. The CountIfs() function was used to calculate how many of each outcome occurred in each financing goal range. After calculating the total projects within each range, the percentage of succesful, failed, and canceled campgaigns for each goal range was calculated. 
+Campaign goals were broken into 12 data ranges starting with "less than 1,000", ending with "50,000 or more", and then divided equally into 10 ranges between those amounts. The CountIfs() function was used to calculate how many of each outcome occurred in each financing goal range. After calculating the total projects within each range, the percentage of successful, failed, and canceled campaigns for each goal range was calculated. 
 
 This data was also visualized with a line graph.
 
@@ -31,12 +31,12 @@ Also within the CountIfs formulas, the data ranges are hard-coded into the calcu
 ## Results
 
 ### Theater Outcomes Based on Launch Date
-* The number of failed campaigns in the Theater category does not fluctuate dramatically over the course of a year. With the exception of December (when succesful and failed campgaign numbers are nearly equal) the number of failed campaigns correlates with the increase or decrease in succesful campaigns across months (e.g., the number of both successful and failed campaigns in February are higher than they were in January. From February to March, both numbers decrease).
-* The best month to launch a succesful Kickstarter campaign in the Theater category is May. It has the highest rate of success when compared to the rest of the year, and the corresponding rise in failed campaigns from April to May (12) is not nearly as high as the rise in succesful campaigns (40).
+* The number of failed campaigns in the Theater category does not fluctuate dramatically over the course of a year. With the exception of December (when successful and failed campaign numbers are nearly equal) the number of failed campaigns correlates with the increase or decrease in successful campaigns across months (e.g., the number of both successful and failed campaigns in February are higher than they were in January. From February to March, both numbers decrease).
+* The best month to launch a successful Kickstarter campaign in the Theater category is May. It has the highest rate of success when compared to the rest of the year, and the corresponding rise in failed campaigns from April to May (12) is not nearly as high as the rise in successful campaigns (40).
 
 ### Outcomes Based on Goals
 * For a successful campaign within the Plays subcategory, the ideal amount of money to ask for is less than $1,000. Of all the data ranges, this one has the highest percentage rate for success and the lowest for failure. 
-* The next best option for a succesful Plays campaign is a goal amount from $1,000-$4,999. The percentages of success and failure at this level are very close to the lowest data range, but the number of campaigns launched is much greater (534 projects compared to 186). That provides a more robust data set to calculate with, particularly since the next highest rates of success have fewer than 10 total projects in that data range. 
+* The next best option for a successful Plays campaign is a goal amount from $1,000-$4,999. The percentages of success and failure at this level are very close to the lowest data range, but the number of campaigns launched is much greater (534 projects compared to 186). That provides a more robust data set to calculate with, particularly since the next highest rates of success have fewer than 10 total projects in that data range. 
 
 ## Limitations
 * Both graphs differ on how they are filtered (one is by a Parent category, the other a Subcategory). To best compare the ideal conditions for a successful campaign, it would help to keep that variable consistent.
