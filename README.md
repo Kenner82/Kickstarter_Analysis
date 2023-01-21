@@ -15,7 +15,7 @@ This data was visualized with a line graph.
 ### Outcomes For Plays Based On Financing Goals
 The next analysis used the same Kickstarter campaign data to compare the outcomes (successful, failed, or canceled) of campaigns in the "plays" subcategory to their financing goals. 
 
-Campaign goals were broken into 12 data ranges starting with "less than 1,000", ending with "50,000 or more", and then divided equally into 10 ranges between those amounts. The CountIfs() function was used to calculate how many of each outcome occurred in each financing goal range. After calculating the total projects within each range, the percentage of successful, failed, and canceled campaigns for each goal range was calculated. 
+Campaign goals were broken into 12 data ranges starting with "less than 1,000", ending with "50,000 or more", and then divided equally into 10 ranges between those amounts. The [CountIfs() function](https://support.microsoft.com/en-us/office/countifs-function-dda3dc6e-f74e-4aee-88bc-aa8c2a866842) was used to calculate how many of each outcome occurred in each financing goal range. After calculating the total projects within each range, the percentage of successful, failed, and canceled campaigns for each goal range was calculated. 
 
 This data was also visualized with a line graph.
 
